@@ -9,6 +9,7 @@ var randomstring = require("randomstring");
 var server = net.createServer(function(socket){
     setInterval(()=>{
         let count = Math.floor(Math.random() * 200) + 1;
+        console.log(count);
         socket.write(strToPackage(randomstring.generate(count)))
     },100)
 });
