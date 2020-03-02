@@ -8,7 +8,7 @@ var randomstring = require("randomstring");
 /* 创建TCP服务器 */
 var server = net.createServer(function(socket){
     setInterval(()=>{
-        let count = Math.floor(Math.random() * 40) + 1;
+        let count = Math.floor(Math.random() * 200) + 1;
         socket.write(strToPackage(randomstring.generate(count)))
     },100)
 });
