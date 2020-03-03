@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac782e80-34db-4049-b2bd-75cf31f56722" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/kcp.js" beforeDir="false" afterPath="$PROJECT_DIR$/kcp.js" afterDir="false" />
-    </list>
+    <list default="true" id="ac782e80-34db-4049-b2bd-75cf31f56722" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -148,16 +146,15 @@
       <workItem from="1583168081206" duration="1272000" />
       <workItem from="1583169507166" duration="1342000" />
       <workItem from="1583204601467" duration="47000" />
-      <workItem from="1583207446849" duration="4345000" />
+      <workItem from="1583207446849" duration="4512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7006000" />
+    <option name="totallyTimeSpent" value="7173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1342" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
