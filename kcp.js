@@ -15,6 +15,7 @@ server.on('error', (err) => {
 
 server.on('message', (msg, rinfo) => {
     var k = rinfo.address+'_'+rinfo.port;
+    console.log(`receive from  client ${k} msg ${msg}`);
     if (undefined === clients[k]) {
         var context = {
             address : rinfo.address,
