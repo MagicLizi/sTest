@@ -26,6 +26,7 @@ server.on('message', (msg, rinfo) => {
         clients[k] = kcpobj;
     }
     var kcpobj = clients[k];
+    console.log(`send to client ${msg}`);
     kcpobj.input(msg);
 });
 
